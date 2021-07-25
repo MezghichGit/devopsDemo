@@ -33,6 +33,7 @@ public class HomeController {
 		
 	}
 	
+
 	
 	
 	@RequestMapping("/azza")
@@ -40,6 +41,13 @@ public class HomeController {
 	public String azza()
 	{
 		return "<h1>azza</h1>";
+	}
+	@RequestMapping("/mahmoud")
+	@ResponseBody
+	public String mahmoud()
+	{
+		return "<h1>Mahmoud</h1>";
+
 		
 	}
 }
