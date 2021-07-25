@@ -23,4 +23,13 @@ public class HomeController {
 		return "<h1>Day 7</h1>";
 		
 	}
+	
+	
+	@RequestMapping("/logout")
+	@ResponseBody
+	public String logout()
+	{
+		return "<h1>Then END</h1>";
+		
+	}
 }
