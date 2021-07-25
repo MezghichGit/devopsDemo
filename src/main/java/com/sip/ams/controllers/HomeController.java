@@ -32,4 +32,14 @@ public class HomeController {
 		return "<h1>Then END</h1>";
 		
 	}
+	
+	
+	
+	@RequestMapping("/cours")
+	@ResponseBody
+	public String cours()
+	{
+		return "<h1>cours</h1>";
+		
+	}
 }
