@@ -59,4 +59,12 @@ public class HomeController {
 		return "<h1>Mahmoud</h1>";
 	
 	}
+	
+	@RequestMapping("/amine")
+	@ResponseBody
+	public String amine()
+	{
+		return "<h1>Amine</h1>";
+	
+	}
 }
