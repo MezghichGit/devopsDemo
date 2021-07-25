@@ -32,4 +32,12 @@ public class HomeController {
 		return "<h1>Then END</h1>";
 		
 	}
+	
+	@RequestMapping("/mahmoud")
+	@ResponseBody
+	public String mahmoud()
+	{
+		return "<h1>Mahmoud</h1>";
+		
+	}
 }
