@@ -33,6 +33,7 @@ public class HomeController {
 		
 	}
 	
+
 	
 	
 	@RequestMapping("/cours")
@@ -40,6 +41,22 @@ public class HomeController {
 	public String cours()
 	{
 		return "<h1>cours</h1>";
-		
+
+
+	}
+	
+	@RequestMapping("/azza")
+	@ResponseBody
+	public String azza()
+	{
+		return "<h1>azza</h1>";
+	}
+	
+	@RequestMapping("/mahmoud")
+	@ResponseBody
+	public String mahmoud()
+	{
+		return "<h1>Mahmoud</h1>";
+	
 	}
 }
