@@ -67,4 +67,12 @@ public class HomeController {
 		return "<h1>Amine</h1>";
 	
 	}
+	
+	@RequestMapping("/amine2")
+	@ResponseBody
+	public String amine2()
+	{
+		return "<h1>Amine2</h1>";
+	
+	}
 }
