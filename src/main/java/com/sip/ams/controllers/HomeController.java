@@ -15,4 +15,12 @@ public class HomeController {
 		return "<h1>Devops section 1 : Git</h1>";
 		
 	}
+	
+	@RequestMapping("/index")
+	@ResponseBody
+	public String index()
+	{
+		return "<h1>Day 7</h1>";
+		
+	}
 }
